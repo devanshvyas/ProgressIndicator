@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ProgressIndicator_Example' do
+  pod 'ProgressIndicator', :path => '../'
+
+  target 'ProgressIndicator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
