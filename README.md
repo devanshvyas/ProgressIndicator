@@ -22,7 +22,7 @@ pod 'ProgressIndicator'
 
 ## Author
 
-zaidSA, devansh.vyas@solutionanalysts.com
+devanshvyas, devansh.vyas@solutionanalysts.com
 
 ## License
 
