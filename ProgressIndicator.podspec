@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProgressIndicator'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'This library will let you show activity indicator by using just one variable.'
 
 # This description is used to generate tags and improve search results.
