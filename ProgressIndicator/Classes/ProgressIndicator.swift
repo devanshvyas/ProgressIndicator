@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProgressIndicator: UIViewController {
+open class ProgressIndicator: UIViewController {
     
     fileprivate var indicator: UIActivityIndicatorView? = nil
     public var isLoading = false {
