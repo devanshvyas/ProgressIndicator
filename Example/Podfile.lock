@@ -1,0 +1,16 @@
+PODS:
+  - ProgressIndicator (0.1.0)
+
+DEPENDENCIES:
+  - ProgressIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  ProgressIndicator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProgressIndicator: 15497bf133c285f33a1e9e4fcf5a0644f73bab4c
+
+PODFILE CHECKSUM: 3a5d274031532edec51074bd27a2ef6d5e038a6e
+
+COCOAPODS: 1.7.1

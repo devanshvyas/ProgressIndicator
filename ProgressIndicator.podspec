@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ProgressIndicator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ProgressIndicator.'
+  s.summary          = 'This library will let you show activity indicator by using just one variable.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,21 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zaidSA/ProgressIndicator'
+  s.homepage         = 'https://github.com/devanshvyas/ProgressIndicator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zaidSA' => 'devansh.vyas@solutionanalysts.com' }
-  s.source           = { :git => 'https://github.com/zaidSA/ProgressIndicator.git', :tag => s.version.to_s }
+  s.author           = { 'devanshvyas' => 'devansh.vyas@solutionanalysts.com' }
+  s.source           = { :git => 'https://github.com/devanshvyas/ProgressIndicator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ProgressIndicator/Classes/**/*'
-  
+  s.source_files = 'ProgressIndicator/Classes/*'
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'ProgressIndicator' => ['ProgressIndicator/Assets/*.png']
   # }
-
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

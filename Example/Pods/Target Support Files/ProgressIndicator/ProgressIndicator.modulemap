@@ -1,0 +1,6 @@
+framework module ProgressIndicator {
+  umbrella header "ProgressIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

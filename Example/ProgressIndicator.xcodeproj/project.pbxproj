@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* ProgressIndicator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressIndicator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		67D464B9CE4AE731EC395411 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		67D464B9CE4AE731EC395411 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7A304EAEA183E7FE6A8A2F4C /* Pods-ProgressIndicator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressIndicator_Tests.release.xcconfig"; path = "Target Support Files/Pods-ProgressIndicator_Tests/Pods-ProgressIndicator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7E4460A48E70849E5210E60F /* ProgressIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ProgressIndicator.podspec; path = ../ProgressIndicator.podspec; sourceTree = "<group>"; };
-		B5863C9DF756613673925A7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E4460A48E70849E5210E60F /* ProgressIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ProgressIndicator.podspec; path = ../ProgressIndicator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5863C9DF756613673925A7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B9DFE7BF20AFAE79184F2D44 /* Pods_ProgressIndicator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressIndicator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				08F8885302A2DBAB4A706F4D /* Pods-ProgressIndicator_Tests.debug.xcconfig */,
 				7A304EAEA183E7FE6A8A2F4C /* Pods-ProgressIndicator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
