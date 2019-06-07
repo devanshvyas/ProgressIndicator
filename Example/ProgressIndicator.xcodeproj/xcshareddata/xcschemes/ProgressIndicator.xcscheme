@@ -17,7 +17,7 @@
                BlueprintIdentifier = "6F79C9884AA74442B0DFCE5811FC5B29"
                BuildableName = "ProgressIndicator.framework"
                BlueprintName = "ProgressIndicator"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "6F79C9884AA74442B0DFCE5811FC5B29"
             BuildableName = "ProgressIndicator.framework"
             BlueprintName = "ProgressIndicator"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
