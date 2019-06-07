@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		001BB20DE7E4A28066124E5177831FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		04170C4251391C595D85B1C4FA5E6586 /* Pods-ProgressIndicator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7782CB171E73920C80D5BEEC2C915085 /* Pods-ProgressIndicator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		056D137E22AA3DB000ABADEE /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D137D22AA3DB000ABADEE /* ProgressIndicator.swift */; };
+		056D137F22AA3DB000ABADEE /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D137D22AA3DB000ABADEE /* ProgressIndicator.swift */; };
 		5A8223677976011BB29A9F9FDE93D39F /* Pods-ProgressIndicator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF449A41B580E885A56226FCD1F38A /* Pods-ProgressIndicator_Example-dummy.m */; };
 		61CCB094F8F41E1B2E864A3A246A2C57 /* ProgressIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C91213F4B97FEC0BF146A48F12968BC5 /* ProgressIndicator-dummy.m */; };
 		7B5C758BDAE303C76ADC3E2B9724BEAA /* ProgressIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4001C89CFAE38FE6AA04676412255301 /* ProgressIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056D137D22AA3DB000ABADEE /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressIndicator.swift; path = ProgressIndicator/Classes/ProgressIndicator.swift; sourceTree = "<group>"; };
 		336045F96467780EF7D1D8C3ECE138CE /* Pods-ProgressIndicator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProgressIndicator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3ECF449A41B580E885A56226FCD1F38A /* Pods-ProgressIndicator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProgressIndicator_Example-dummy.m"; sourceTree = "<group>"; };
 		4001C89CFAE38FE6AA04676412255301 /* ProgressIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressIndicator-umbrella.h"; sourceTree = "<group>"; };
@@ -151,6 +154,7 @@
 		A5186FF44894AF683F2D7781EC785E73 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				056D137D22AA3DB000ABADEE /* ProgressIndicator.swift */,
 				FDA918D16FEE94E091868198D1C6C25D /* LICENSE */,
 				743022513EDBB4DFD217E30CC11C0206 /* ProgressIndicator.podspec */,
 				719740F71626C218D5BC33F3AA935033 /* README.md */,
@@ -312,6 +316,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					6F79C9884AA74442B0DFCE5811FC5B29 = {
+						LastSwiftMigration = 1020;
+					};
+					7AB535DA9B385FBB347764105BD497D5 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -362,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056D137F22AA3DB000ABADEE /* ProgressIndicator.swift in Sources */,
 				61CCB094F8F41E1B2E864A3A246A2C57 /* ProgressIndicator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056D137E22AA3DB000ABADEE /* ProgressIndicator.swift in Sources */,
 				5A8223677976011BB29A9F9FDE93D39F /* Pods-ProgressIndicator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +419,7 @@
 			baseConfigurationReference = B7121707E7BF449901EC5DD97553BA4A /* Pods-ProgressIndicator_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,6 +442,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -471,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2B9624659EC08A055B9A0196B2DE102 /* ProgressIndicator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -536,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2B9624659EC08A055B9A0196B2DE102 /* ProgressIndicator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -556,6 +575,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -632,6 +652,7 @@
 			baseConfigurationReference = 655E89E5B4C3A3217918A82DD16093A0 /* Pods-ProgressIndicator_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -654,6 +675,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
