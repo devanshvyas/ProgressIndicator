@@ -32,7 +32,7 @@ open class ProgressIndicator: UIViewController {
     }
     
     fileprivate func getActivityMonitor(view:UIView) -> UIActivityIndicatorView {
-        let activityMonitor = UIActivityIndicatorView(activityIndicatorStyle: indicatorStyle)
+        let activityMonitor = UIActivityIndicatorView(style: indicatorStyle)
         activityMonitor.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
         activityMonitor.center = view.center
         activityMonitor.backgroundColor = UIColor.black.withAlphaComponent(0.6)
