@@ -27,7 +27,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0583C8DF22AA71020078BCC4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0583C8DC22AA71020078BCC4 /* ProgressIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProgressIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F8885302A2DBAB4A706F4D /* Pods-ProgressIndicator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressIndicator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ProgressIndicator_Tests/Pods-ProgressIndicator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3418E5B96312AF17D1D716C4 /* Pods-ProgressIndicator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressIndicator_Example.debug.xcconfig"; path = "Target Support Files/Pods-ProgressIndicator_Example/Pods-ProgressIndicator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		420092D396737860187D6E85 /* Pods-ProgressIndicator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressIndicator_Example.release.xcconfig"; path = "Target Support Files/Pods-ProgressIndicator_Example/Pods-ProgressIndicator_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +167,7 @@
 		751BD8D41AE2ACDC73EA0967 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0583C8DC22AA71020078BCC4 /* ProgressIndicator.framework */,
 				B9DFE7BF20AFAE79184F2D44 /* Pods_ProgressIndicator_Example.framework */,
 				5046A7C37C555A8C1D23002C /* Pods_ProgressIndicator_Tests.framework */,
 			);
@@ -171,6 +186,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				C6A7FAA1B832999C529FB37B /* [CP] Embed Pods Frameworks */,
+				0583C8DF22AA71020078BCC4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

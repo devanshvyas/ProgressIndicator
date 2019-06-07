@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		001BB20DE7E4A28066124E5177831FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		04170C4251391C595D85B1C4FA5E6586 /* Pods-ProgressIndicator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7782CB171E73920C80D5BEEC2C915085 /* Pods-ProgressIndicator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		056D137E22AA3DB000ABADEE /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D137D22AA3DB000ABADEE /* ProgressIndicator.swift */; };
 		056D137F22AA3DB000ABADEE /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D137D22AA3DB000ABADEE /* ProgressIndicator.swift */; };
 		5A8223677976011BB29A9F9FDE93D39F /* Pods-ProgressIndicator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF449A41B580E885A56226FCD1F38A /* Pods-ProgressIndicator_Example-dummy.m */; };
 		61CCB094F8F41E1B2E864A3A246A2C57 /* ProgressIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C91213F4B97FEC0BF146A48F12968BC5 /* ProgressIndicator-dummy.m */; };
@@ -391,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056D137E22AA3DB000ABADEE /* ProgressIndicator.swift in Sources */,
 				5A8223677976011BB29A9F9FDE93D39F /* Pods-ProgressIndicator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
