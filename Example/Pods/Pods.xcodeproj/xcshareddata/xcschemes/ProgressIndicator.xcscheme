@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "ProgressIndicator_Example.app"
-               BlueprintName = "ProgressIndicator_Example"
-               ReferencedContainer = "container:ProgressIndicator.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ProgressIndicator_Tests.xctest"
-               BlueprintName = "ProgressIndicator_Tests"
-               ReferencedContainer = "container:ProgressIndicator.xcodeproj">
+               BlueprintIdentifier = "6F79C9884AA74442B0DFCE5811FC5B29"
+               BuildableName = "ProgressIndicator.framework"
+               BlueprintName = "ProgressIndicator"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ProgressIndicator_Tests.xctest"
-               BlueprintName = "ProgressIndicator_Tests"
-               ReferencedContainer = "container:ProgressIndicator.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -59,14 +35,14 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "ProgressIndicator_Example.app"
             BlueprintName = "ProgressIndicator_Example"
-            ReferencedContainer = "container:ProgressIndicator.xcodeproj">
+            ReferencedContainer = "container:../ProgressIndicator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -75,16 +51,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ProgressIndicator_Example.app"
-            BlueprintName = "ProgressIndicator_Example"
-            ReferencedContainer = "container:ProgressIndicator.xcodeproj">
+            BlueprintIdentifier = "6F79C9884AA74442B0DFCE5811FC5B29"
+            BuildableName = "ProgressIndicator.framework"
+            BlueprintName = "ProgressIndicator"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,16 +69,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ProgressIndicator_Example.app"
-            BlueprintName = "ProgressIndicator_Example"
-            ReferencedContainer = "container:ProgressIndicator.xcodeproj">
+            BlueprintIdentifier = "6F79C9884AA74442B0DFCE5811FC5B29"
+            BuildableName = "ProgressIndicator.framework"
+            BlueprintName = "ProgressIndicator"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
